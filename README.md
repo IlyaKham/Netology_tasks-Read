@@ -58,8 +58,8 @@ USE sakila;\
 SHOW TABLES;\
 
 ### SQL-скрипт по Заданию 2 
-'''
-SELECT 
+
+'''SELECT 
     TABLE_NAME AS 'Название таблицы',
     COLUMN_NAME AS 'Название первичного ключа'
 FROM 
@@ -68,5 +68,4 @@ WHERE
     TABLE_SCHEMA = 'sakila'
     AND CONSTRAINT_NAME = 'PRIMARY'
 ORDER BY 
-    TABLE_NAME;
-'''
+    TABLE_NAME;'''
