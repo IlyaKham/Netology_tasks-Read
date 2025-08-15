@@ -47,17 +47,19 @@ customer         | customer_id
 
 ### Простыня SQL- запросов к первому заданию 
 
-CREATE USER 'sys_temp'@'%' IDENTIFIED BY 'password';n\
-SELECT user, host FROM mysql.user;n\
-GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'%';n\
-FLUSH PRIVILEGES;n\
-SHOW GRANTS FOR 'sys_temp'@'%';n\
-ALTER USER 'sys_temp'@'%' IDENTIFIED WITH mysql_native_password BY 'password';n\
+CREATE USER 'sys_temp'@'%' IDENTIFIED BY 'password';\
+SELECT user, host FROM mysql.user;\
+GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'%';\
+FLUSH PRIVILEGES;\
+SHOW GRANTS FOR 'sys_temp'@'%';\
+ALTER USER 'sys_temp'@'%' IDENTIFIED WITH mysql_native_password BY 'password';\
 
-USE sakila;n\
-SHOW TABLES;n\
+USE sakila;\
+SHOW TABLES;\
 
-### SQL-скрипт по Заданию 2 SELECT 
+### SQL-скрипт по Заданию 2 
+'''
+SELECT 
     TABLE_NAME AS 'Название таблицы',
     COLUMN_NAME AS 'Название первичного ключа'
 FROM 
@@ -67,3 +69,4 @@ WHERE
     AND CONSTRAINT_NAME = 'PRIMARY'
 ORDER BY 
     TABLE_NAME;
+'''
