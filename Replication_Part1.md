@@ -19,9 +19,9 @@ Master - master репликация позволяет записывать и 
 <img width="380" height="191" alt="Снимок экрана 2025-08-30 173159" src="https://github.com/user-attachments/assets/e51ba510-ab9b-42a2-9a54-c93c3f2b84a0" />
 
 <img width="725" height="471" alt="Снимок экрана 2025-08-30 173254" src="https://github.com/user-attachments/assets/e462a316-ce5b-4106-8fbe-b94f49977450" />
-
+На Мастере
 <img width="623" height="229" alt="Снимок экрана 2025-08-30 173451" src="https://github.com/user-attachments/assets/f050b260-360b-4fa5-95f3-1f94bc0e66be" />
-
+На Слейве
 <img width="623" height="428" alt="Снимок экрана 2025-08-30 173433" src="https://github.com/user-attachments/assets/6965362e-b76d-406d-945e-7fba264fb744" />
 
 
